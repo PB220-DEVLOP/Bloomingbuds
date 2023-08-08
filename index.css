@@ -1,0 +1,9 @@
+.head-img{
+    height: 120px;
+}
+.head:hover{
+    transform: scale(1.1);
+}
+.card-img{
+    opacity: 1;
+}
