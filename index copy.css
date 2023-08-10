@@ -39,19 +39,3 @@ transition: background-color 0.3s,color 0.3s;
 .card:hover .button{
     display: block;
 }
-.popular-text{
-    top: 40;
-}
-.news{
-    height: 60px; 
-}
-.news:hover{
-    scale: 1.1;
-    transition: 1s;
-}
-@media(max-width: 500px){
-.popular-img
-{
- height: 20px;
-}
-}
