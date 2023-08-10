@@ -8,10 +8,10 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./index.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,57 +59,49 @@
 
 
     <!-- carousel -->
-    <div class="container-fluide p-4">
-            <div class="row">
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./indeximages/carsoul1.jpeg" class="d-block w-100 ">
-            <pre class="card-img-overlay text-light carouseltext">Beautiful
-         <b style="margin-right: 10%;">Calming</b> 
-           Native</pre>
+      <div class="row">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./indeximages/carsoul1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./indeximages/carsoul2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./indeximages/carsoul3.jpg" class="d-block w-100" alt="...">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="./indeximages/carsoul2.jpg" class="d-block w-100 h-75" alt="...">
-            <pre class="card-img-overlay carouseltext2">Order Your 
-Plants Now
-<button type="submit" class="bg-success rounded-pill" style="font-size: 30px;">Shop Now</button></pre>
-          </div>
-          <div class="carousel-item">
-            <img src="./indeximages/carsoul3.jpg" class="d-block w-100 " alt="...">
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-</div>
 
 
     <!-- Cards -->
     <div class="row justify-content-center">
-      <div class="col-md-2 col-2 text-center m-5 ">
+      <div class="col-md-2 col-2 m-4  text-center  ">
         <a href="" class="text-decoration-none text-dark"> <i class="bi bi-people" style="font-size: 3rem;"></i>
           <p>Help Center</p>
         </a>
       </div>
-      <div class="col-md-2 col-2 m-5 text-center ">
+      <div class="col-md-2 col-2 m-4 text-center ">
         <a href="" class="text-decoration-none text-dark"> <i class="bi bi-truck" style="font-size: 3rem;"></i>
           <p>Track Order</p>
         </a>
       </div>
-      <div class="col-md-2 m-5 col-2 text-center">
+      <div class="col-md-2 col-2 m-4 text-center">
         <a href="" class="text-decoration-none text-dark"><i class="bi bi-trophy" style="font-size: 3rem;"></i>
           <p>Rewards</p>
         </a>
       </div>
-      <div class="col-md-2 m-5 col-2 text-center">
+      <div class="col-md-2 m-4 col-2 text-center">
         <a href="" class="text-decoration-none text-dark"><i class="bi bi-percent" style="font-size: 3rem;"></i>
           <p>Offers</p>
         </a>
@@ -118,41 +110,376 @@ Plants Now
 
     <!-- Gardening and Plants  -->
     <div class="row">
-      <h3 class="text-center ">Gardening And Plants</h3>
-      <div class="col-md-3">
-          <div class="card">
-            <a href="">
-            <img src="./indeximages/Gardening2.webp" style="height: 350px;" class="card-img">
+      <h3 class="text-center my-5">Gardening And Plants</h3>
+      <div class="col-md-3 col-12 my-4">
+        <div class="card">
+          <a href="">
+            <img src="./indeximages/Gardening2.webp" style="height: 460px;" class="card-img">
 
-            <p class="card-img-overlay text-center m-5 text-dark">view more</p>
+            <button type="submit" class="card-img-overlay  btn btn-sm text-dark">view more</button>
             <br>
             <h1 class="card-img-overlay text-center text-dark"> Gardening</h1>
           </a>
-          </div>
+        </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3 col-12 my-4">
         <div class="card">
           <img src="./indeximages/subgardening.avif">
           <div class="card-body">
-           <s >&#8377;1097</s>
-           <p class="text-danger fs-3">&#8377;895</p>
-           <p class="text-danger">⚡ Extra 30% Off on Checkout </p>
-           Plant Pack For Small Garden in home
-           <p class="text-warning"><i class="bi bi-star-fill"></i>
-           <i class="bi bi-star-fill"></i>
-           <i class="bi bi-star-fill"></i>
-           <i class="bi bi-star-fill"></i>
-           <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
-          </p>
-          <button type="submit" class="btn btn-outline-warning align-content-center w-100">Add to cart</button>
+            <s>&#8377;1097</s>
+            <p class="text-danger fs-3">&#8377;895</p>
+            <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+            Plant Pack For Small Garden in home
+            <p class="text-warning"><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+            </p>
+            <div class="button">
+              <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                cart</button>
+              <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                more</button>
+            </div>
           </div>
         </div>
       </div>
-    
-  </div>
-  </div>
 
+      <div class="col-md-3 col-12 my-4">
+        <div class="card">
+          <img src="./indeximages/subgardening2.jpg">
+          <div class="card-body">
+            <s>&#8377;1097</s>
+            <p class="text-danger fs-3">&#8377;895</p>
+            <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+            Plant Pack For Small Garden in home
+            <p class="text-warning"><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+            </p>
+            <div class="button">
+              <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                cart</button>
+              <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-12 my-4">
+        <div class="card">
+          <img src="./indeximages/subgardening3.jpg">
+          <div class="card-body">
+            <s>&#8377;1097</s>
+            <p class="text-danger fs-3">&#8377;895</p>
+            <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+            Plant Pack For Small Garden in home
+            <p class="text-warning"><i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+            </p>
+            <div class="button">
+              <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                cart</button>
+              <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2nd row -->
+      <div class="row">
+        <div class="col-md-3 col-12 my-4">
+          <div class="card">
+            <img src="./indeximages/subgardening4.webp">
+            <div class="card-body">
+              <s>&#8377;1097</s>
+              <p class="text-danger fs-3">&#8377;895</p>
+              <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+              Plant Pack For Small Garden in home
+              <p class="text-warning"><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+              </p>
+              <div class="button">
+                <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                  cart</button>
+                <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                  more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-12 my-4">
+          <div class="card">
+            <img src="./indeximages/subgardening5.jpg">
+            <div class="card-body">
+              <s>&#8377;1097</s>
+              <p class="text-danger fs-3">&#8377;895</p>
+              <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+              Plant Pack For Small Garden in home
+              <p class="text-warning"><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+              </p>
+              <div class="button">
+                <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                  cart</button>
+                <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                  more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-12 my-4">
+          <div class="card">
+            <img src="./indeximages/subgardening6.jpg">
+            <div class="card-body">
+              <s>&#8377;1097</s>
+              <p class="text-danger fs-3">&#8377;895</p>
+              <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+              Plant Pack For Small Garden in home
+              <p class="text-warning"><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+              </p>
+              <div class="button">
+                <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                  cart</button>
+                <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                  more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-12 my-4">
+          <div class="card">
+            <img src="./indeximages/subgardening7.jpg">
+            <div class="card-body">
+              <s>&#8377;1097</s>
+              <p class="text-danger fs-3">&#8377;895</p>
+              <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+              Plant Pack For Small Garden in home
+              <p class="text-warning"><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+              </p>
+              <div class="button">
+                <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                  cart</button>
+                <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                  more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- 3rd row  -->
+      
+      <div class="row">
+        <div class="col-md-3 col-12 my-4">
+          <div class="card">
+            <a href="">
+              <img src="./indeximages/plants2.webp" style="height: 460px;" class="card-img">
+  
+              <button type="submit" class="card-img-overlay  btn btn-sm text-dark">view more</button>
+              <br>
+              <h1 class="card-img-overlay text-center text-dark">Plants</h1>
+            </a>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-12 my-4">
+          <div class="card">
+            <img src="./indeximages/subgardening.avif">
+            <div class="card-body">
+              <s>&#8377;1097</s>
+              <p class="text-danger fs-3">&#8377;895</p>
+              <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+              Plant Pack For Small Garden in home
+              <p class="text-warning"><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+              </p>
+              <div class="button">
+                <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                  cart</button>
+                <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                  more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-12 my-4">
+          <div class="card">
+            <img src="./indeximages/subgardening2.jpg">
+            <div class="card-body">
+              <s>&#8377;1097</s>
+              <p class="text-danger fs-3">&#8377;895</p>
+              <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+              Plant Pack For Small Garden in home
+              <p class="text-warning"><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+              </p>
+              <div class="button">
+                <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                  cart</button>
+                <button type="submit" class="btn bbtn-outline-success align-content-center w-100 card-button mt-2">Know
+                  more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 col-12 my-4">
+          <div class="card">
+            <img src="./indeximages/subgardening3.jpg">
+            <div class="card-body">
+              <s>&#8377;1097</s>
+              <p class="text-danger fs-3">&#8377;895</p>
+              <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+              Plant Pack For Small Garden in home
+              <p class="text-warning"><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+              </p>
+              <div class="button">
+                <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                  cart</button>
+                <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                  more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- 4th row -->
+        <div class="row">
+          <div class="col-md-3 col-12 my-4">
+            <div class="card">
+              <img src="./indeximages/subgardening4.webp">
+              <div class="card-body">
+                <s>&#8377;1097</s>
+                <p class="text-danger fs-3">&#8377;895</p>
+                <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+                Plant Pack For Small Garden in home
+                <p class="text-warning"><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+                </p>
+                <div class="button">
+                  <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                    cart</button>
+                  <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                    more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 col-12 my-4">
+            <div class="card">
+              <img src="./indeximages/subgardening5.jpg">
+              <div class="card-body">
+                <s>&#8377;1097</s>
+                <p class="text-danger fs-3">&#8377;895</p>
+                <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+                Plant Pack For Small Garden in home
+                <p class="text-warning"><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+                </p>
+                <div class="button">
+                  <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                    cart</button>
+                  <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                    more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 col-12 my-4">
+            <div class="card">
+              <img src="./indeximages/subgardening6.jpg">
+              <div class="card-body">
+                <s>&#8377;1097</s>
+                <p class="text-danger fs-3">&#8377;895</p>
+                <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+                Plant Pack For Small Garden in home
+                <p class="text-warning"><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+                </p>
+                <div class="button">
+                  <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                    cart</button>
+                  <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                    more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 col-12 my-4">
+            <div class="card">
+              <img src="./indeximages/subgardening7.jpg">
+              <div class="card-body">
+                <s>&#8377;1097</s>
+                <p class="text-danger fs-3">&#8377;895</p>
+                <p class="text-danger mb-4">⚡ Extra 30% Off on Checkout </p>
+                Plant Pack For Small Garden in home
+                <p class="text-warning"><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i> <span class="text-dark">132views</span>
+                </p>
+                <div class="button">
+                  <button type="submit" class="btn btn-outline-warning align-content-center w-100 card-button">Add to
+                    cart</button>
+                  <button type="submit" class="btn btn-outline-success align-content-center w-100 card-button mt-2">Know
+                    more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
 
   <!-- end -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
