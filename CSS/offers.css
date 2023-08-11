@@ -151,3 +151,10 @@ span{
 .place{
     margin-left: 150px;
 }
+.news{
+    height: 60px; 
+}
+.news:hover{
+    scale: 1.1;
+    transition: 1s;
+}
