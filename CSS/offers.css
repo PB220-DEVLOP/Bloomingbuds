@@ -4,3 +4,16 @@
     border-bottom: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.car{
+    height: 400px;
+    width: 100%;
+    background-color: #c6ffb3;
+    margin-top: 92px;
+}
+.leading{
+    color: #336600;
+    font-size:xx-large;
+    margin-left: 250px;
+    font-size: 70px;
+    padding: 80px;
+}
