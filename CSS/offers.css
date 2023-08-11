@@ -27,7 +27,7 @@
     font-weight: bold;
     font-size: 60px;
 }
-.container{
+.fake-container{
     width: 100%;
     height: 500px;
     background-position: center;
@@ -44,7 +44,7 @@
 }
 .sec-right{
     margin-left: 200px;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 60px;
     color: #66cc66;
 }
@@ -67,4 +67,11 @@
 .index-btn:hover{
     background-color: #ff5c33;
     transition: 0.5s;
+}
+.display-images{
+    display: flex;
+    margin-left: 30px;
+}
+.img-card{
+    height: 500px;
 }
