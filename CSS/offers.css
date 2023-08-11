@@ -108,3 +108,26 @@
 #fix-img{
     height: 280px;
 }    
+.tracking{
+    height: 250px;
+    margin-left: 300px;
+}
+.cupon-card{
+    height: 80px;
+    border:#206020 2px dotted ;
+    width: 600px;
+    background-color: #d9f2d9;
+    margin-left: 60px;
+}
+.move{
+    margin-left: 120px;
+    font-weight: bold;
+}
+span{
+    font-size: 20px;
+    color: #206020;
+    font-weight: bold
+}
+.move-2{
+    margin-left: 200px;
+}
