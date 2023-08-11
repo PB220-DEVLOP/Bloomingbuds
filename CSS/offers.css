@@ -117,7 +117,7 @@
     border:#206020 2px dotted ;
     width: 600px;
     background-color: #d9f2d9;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 .move{
     margin-left: 120px;
@@ -130,4 +130,12 @@ span{
 }
 .move-2{
     margin-left: 200px;
+}
+.align{
+    height: 400px;
+    width: 345px;
+    border-radius: 5px;
+}
+.category-card{
+    display: flex;
 }
