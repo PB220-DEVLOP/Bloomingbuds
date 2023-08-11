@@ -135,7 +135,19 @@ span{
     height: 400px;
     width: 345px;
     border-radius: 5px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 .category-card{
     display: flex;
+}
+.end-card{
+    height: 300px;
+    width: 100%;
+    background-color:  #d9f2d9;
+}
+#logos{
+    height: 80px;
+}
+.place{
+    margin-left: 150px;
 }
