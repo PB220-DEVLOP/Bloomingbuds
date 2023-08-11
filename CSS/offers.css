@@ -3,6 +3,8 @@
     padding: 0%;
     border-bottom: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .car{
     height: 400px;
@@ -13,9 +15,10 @@
 .lead{
     color: #206020;
     text-align: center;
-    font-size: 70px;
-    padding: 80px;
-    font-size: 100px;
+}
+#size{
+    font-size: 90px;
+    font-weight: bold;
 }
 #p{
     color: #66cc66;
@@ -72,8 +75,6 @@
     display: flex;
     margin-left: 30px;
 }
-.img-card{
-    height: 400px;
-    width: 400px;
-    background-image: url('https://img.freepik.com/free-photo/close-up-hands-holding-watering-can_23-2149098335.jpg?w=1060&t=st=1691764332~exp=1691764932~hmac=367540eb80fd259c384876c4deef796c7c58a1cce8853f340884e30118eafb65');
+.card-img{
+    opacity: 0.7;
 }
