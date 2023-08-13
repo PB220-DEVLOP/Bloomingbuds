@@ -102,7 +102,7 @@ transition: 1s;
   .answer {
     font-size: 20px;
     font-weight: bold;
-    color: #f81e2c;
+    color: #0b0a0a;
     text-shadow: 2px 2px rgb(236, 230, 236);
     display: none;
     margin-top: 10px;
