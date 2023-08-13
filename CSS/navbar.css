@@ -1,0 +1,12 @@
+.list-inline-item:hover{
+    color: #949494;
+    cursor: pointer;
+}
+.chat:hover{
+    cursor: pointer;
+    background-color:rgba(198, 247, 198, 0.336);
+}
+.navbar-logo{
+    width: 100%;
+    border-radius: 10px;
+}
