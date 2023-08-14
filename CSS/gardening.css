@@ -2,37 +2,21 @@
     margin: 0%;
     padding: 0%;
 }
-.head1{
-    justify-content: space-evenly;
-    /* justify-items: center; */
-    text-align: center;
-    
 
-
-}
-.haed1 .text-center{
-  text-align: center;
-}
 h1{
   text-align: center;
   margin-top: 20px;
 }
-.m-3{
-  text-align: center;
-}
+
 .text-center{
     text-align: center;
-    margin-left: 130px;
-    font-size: 15px;
+    font-size: 13.5px;
     color: red;
    
 }
 .head-img{
-    height: 190px;
-    width: 190px;
-    padding: 10px;
-    justify-content: space-between;
-    text-align: center;
+    height: 132px;
+    width: 132px;
 } 
 .head:hover{
     transform: scale(1.1);
