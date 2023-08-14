@@ -5,23 +5,34 @@
 .head1{
     justify-content: space-evenly;
     /* justify-items: center; */
-    width: 100%;
-    margin-left: -27px;
+    text-align: center;
     
 
 
 }
-.text{
+.haed1 .text-center{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+.m-3{
+  text-align: center;
+}
+.text-center{
     text-align: center;
-    margin-left: 30px;
-    font-size: 14px;
-    /* margin-left: 50px; */
+    margin-left: 130px;
+    font-size: 15px;
+    color: red;
+   
 }
 .head-img{
     height: 190px;
     width: 190px;
     padding: 10px;
     justify-content: space-between;
+    text-align: center;
 } 
 .head:hover{
     transform: scale(1.1);
@@ -70,11 +81,7 @@ height: 60px;
 scale: 1.1;
 transition: 1s;
 }
-.row1
-{
-    justify-content: space-evenly;
-    margin-left: 30px;
-}
+
 #faq-container {
     width: 90%;
     max-width: 800px;
