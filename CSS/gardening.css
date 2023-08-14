@@ -14,6 +14,12 @@ h1{
     color: red;
    
 }
+.text-center1{
+  text-align: center;
+  font-size: 35px;
+  color: red;
+ 
+}
 .head-img{
     height: 132px;
     width: 132px;
