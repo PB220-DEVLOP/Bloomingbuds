@@ -48,10 +48,35 @@ transition: background-color 0.3s,color 0.3s;
     scale: 1.1;
     transition: 1s;
 }
-
+.popular-img{
+    height: 600px;
+}
+.popularimg1{
+    height: 380px;
+}
+.popularimg2{
+    height: 224px;
+}
+.popularimg3{
+    height: 350px;
+}
 
 @media(max-width:500px){
+    .newschannel{
+      margin-left:  50px;
+    }
     .popular-img{
-        height: 20px;
+      height: 210px;  
+    }
+    .popularimg1{
+     height: 270px;
+    }
+    
+    .popularimg2{
+        height: 240px;
+        width: 320px;
+    }
+    .popularimg3{
+        height: 250px;
     }
 }
