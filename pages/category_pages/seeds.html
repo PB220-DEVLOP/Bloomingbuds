@@ -7,7 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="../CSS/gardening.css">
+  <link rel="stylesheet" href="/CSS/gardening.css">
+  <link rel="stylesheet" href="/CSS/navbar.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ubuntu:wght@700&display=swap"
@@ -18,47 +19,118 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+   <!-- NAVEBAR -->
+  <!-- navbar01 -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <div class="container-fluid border-bottom ">
+      <div class=" navbar-collapse navbar-expand-sm">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">track order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">REWARD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ORDER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HELP AND SUPPORT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SUGGESTION</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar02 -->
+  <nav class="navbar navbar-expand-lg bg-light  border-bottom sticky-top  ">
+    <div class="container-fluid m-2 ">
+      <a class="navbar-brand" href="#"><img src="/images/indeximages/bloomingbuds.png" alt="bloomingbuds logo"
+          height="50" style="border-radius: 10px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-chevron-double-down"></i>
+      </button>
+  
+      <div class="collapse navbar-collapse m-2 " id="navbarSupportedContent">
+        <form class="d-flex  " role="search">
+          <button class="btn btn-outline-danger  dropdown-toggle me-3 " type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Categories</button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Addons</a></li>
+            <li><a class="dropdown-item" href="./pages/bulbs.html">bulbs</a></li>
+            <li><a class="dropdown-item" href="#">combo packs</a></li>
+            <li><a class="dropdown-item" href="./pages/gardening.html">Gardening</a></li>
+            <li><a class="dropdown-item" href="#">Miniture Garden</a></li>
+            <li><a class="dropdown-item" href="#">Pebbles</a></li>
+            <li><a class="dropdown-item" href="./pages/plants.html">Plants</a></li>
+            <li><a class="dropdown-item" href="#">Soil and Fertilizers</a></li>
+          </ul>
+          <input class="form-control ms-auto  " type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger " type="submit">Search</button>
+        </form>
+        <div class="nav-item d-flex ms-5  ">
+          <div class="nav-hover d-flex mt-2 ">
+            <i class="bi bi-chat-left fs-3 me-2 "> </i>
+            <h6>Expert support<br>Available 24/7</h6>
+          </div>
+          <div class="ms-5 nav-hover mt-2 ">
+            <i class="bi bi-person fs-4 p-2   fst-normal">login</i>
+          </div>
+          <div class="ms-5 nav-hover mt-2 ">
+            <i class="bi bi-cart2  fs-3  ms-2 fst-normal">CART</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
     <div class="container-fluid">
         <div class="row  head1">
             <div class="col-md-1 m-4 col-4 head  ">
-              <a href=""><img src="../images/Pages-images/gar1.avif" class="rounded-pill head-img "></a>
-              <h1 class="text-center ms-3 fw-bolder">Trending in Gardening</h1>
+              <a href=""><img src="/images/Pages-images/seeds1.avif" class="rounded-pill head-img "></a>
+              <h1 class="text-center ms-3 fw-bolder">Trending in Seeds</h1>
             </div>
             <div class="col-md-1 m-4 col-4 head ">
-              <a href=""> <img src="../images/Pages-images/gar2.avif" class="rounded-pill head-img"></a>
-              <h1 class="text-center ms-4 fw-bolder">Packs by Features</h1>
+              <a href=""> <img src="/images/Pages-images/seeds2.webp" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds by Features</h1>
             </div>
             <div class="col-md-1 m-4 col-4 head">
-              <a href=""><img src="../images/Pages-images/gar3.avif" class="rounded-pill head-img"></a>
-              <h1 class="text-center ms-4 fw-bolder">Plant's Packs</h1>
+              <a href=""><img src="/images/Pages-images/seeds3.webp" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds's Packs</h1>
             </div>
             <div class="col-md-1 m-4 col-4 head">
-              <a href=""><img src="../images/Pages-images/gar4.avif" class="rounded-pill head-img"></a>
-              <h1 class="text-center ms-4 fw-bolder">Garden and Kits</h1>
+              <a href=""><img src="/images/Pages-images/seeds4.webp" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds and Kits</h1>
             </div>
             <div class="col-md-1 m-4 col-4 head">
-              <a href=""> <img src="../images/Pages-images/gar5.avif" class="rounded-pill head-img"> </a>
-              <h1 class="text-center ms-4 fw-bolder">Packs by location</h1>
+              <a href=""> <img src="/images/Pages-images/seeds5.avif" class="rounded-pill head-img"> </a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds by location</h1>
             </div>
             <div class="col-md-1 m-4 col-4 head">
-              <a href=""> <img src="../images/Pages-images/gar6.avif" class="rounded-pill head-img"> </a>
+              <a href=""> <img src="/images/Pages-images/seeds6.avif" class="rounded-pill head-img"> </a>
               <h1 class="text-center ms-4 fw-bolder">Packs by Ocassaion</h1>
             </div>
             <div class="col-md-1 m-4 col-4 head">
-              <a href=""> <img src="../images/Pages-images/gar7.avif" class="rounded-pill head-img"></a>
+              <a href=""> <img src="/images/Pages-images/seeds7.avif" class="rounded-pill head-img"></a>
               <h1 class="text-center ms-4 fw-bolder">Packs by Season</h1>
             </div>
             <div class="col-md-1 m-4 col-4 head">
-              <a href=""> <img src="../images/Pages-images/gar7.avif" class="rounded-pill head-img"></a>
-              <h1 class="text-center ms-4 fw-bolder">Packs by Season</h1>
+              <a href=""> <img src="/images/Pages-images/seeds8.webp" class="rounded-pill head-img"></a>
+              <h1 class="text-center ms-4 fw-bolder">Seeds by Season</h1>
             </div>
 
 
     <div class="row row1">
       <div class="col-md-3 col-12 my-4">
         <div class="card">
-          <img src="../images/Pages-images/gcar1.avif">
+          <img src="/images/Pages-images/seeds16.webp">
           <div class="card-body">
             <s>&#8377;2297</s>
             <p class="text-danger fs-3">&#8377;1895</p>
@@ -81,7 +153,7 @@
       </div>
       <div class="col-md-3 col-12 my-4">
         <div class="card">
-          <img src="../images/Pages-images/gcard2.avif">
+          <img src="/images/Pages-images/seeds9.webp">
           <div class="card-body">
             <s>&#8377;2297</s>
             <p class="text-danger fs-3">&#8377;1895</p>
@@ -104,7 +176,7 @@
       </div>
       <div class="col-md-3 col-12 my-4">
         <div class="card">
-          <img src="../images/Pages-images/gcard3.avif">
+          <img src="/images/Pages-images/seeds14.webp">
           <div class="card-body">
             <s>&#8377;2297</s>
             <p class="text-danger fs-3">&#8377;1895</p>
@@ -127,7 +199,7 @@
       </div>
       <div class="col-md-3 col-12 my-4">
         <div class="card">
-          <img src="../images/Pages-images/gcard4.avif">
+          <img src="/images/Pages-images/seeds13.webp">
           <div class="card-body">
             <s>&#8377;2297</s>
             <p class="text-danger fs-3">&#8377;1895</p>
@@ -151,7 +223,7 @@
 
       <div class="col-md-3 col-12 my-4">
         <div class="card">
-          <img src="../images/Pages-images/gcard5.webp">
+          <img src="/images/Pages-images/seeds12.webp">
           <div class="card-body">
             <s>&#8377;2297</s>
             <p class="text-danger fs-3">&#8377;1895</p>
@@ -176,7 +248,7 @@
     
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard6.avif">
+        <img src="/images/Pages-images/seeds11.webp">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -200,7 +272,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard7.webp">
+        <img src="/images/Pages-images/seeds10.webp">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -224,7 +296,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard8.webp">
+        <img src="/images/Pages-images/seeds9.webp">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -248,7 +320,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard9.webp">
+        <img src="/images/Pages-images/seeds8.webp">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -272,7 +344,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard10.webp">
+        <img src="/images/Pages-images/seeds7.avif">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -296,7 +368,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard11.webp">
+        <img src="/images/Pages-images/seeds6.avif">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -320,7 +392,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard12.webp">
+        <img src="/images/Pages-images/seeds5.avif">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -344,7 +416,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard13.webp">
+        <img src="/images/Pages-images/seeds4.webp">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -368,7 +440,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard14.webp">
+        <img src="/images/Pages-images/seeds3.webp">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -392,7 +464,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard15.webp">
+        <img src="/images/Pages-images/seeds2.webp">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -416,7 +488,7 @@
 
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <img src="../images/Pages-images/gcard16.webp">
+        <img src="/images/Pages-images/seeds1.avif">
         <div class="card-body">
           <s>&#8377;2297</s>
           <p class="text-danger fs-3">&#8377;1895</p>
@@ -509,7 +581,7 @@
       <div class="container-fluid text-center text-md-left border-top">
         <div class="row text-center text-md-left">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <img src="../images/indeximages/Blooming Buds.png" class=" mb-4" style="height: 250px;">
+            <img src="/images/indeximages/Blooming Buds.png" class=" mb-4" style="height: 250px;">
             <p class="text-dark text-lg-start" style="font-size: 15px;">At our Gym, we are dedicated to helping
               you achieve your fitness goals and lead a healthy lifestyle. Our mission is to provide you with
               personalized guidance tailored to your specific health needs, ensuring you get the most out of your
