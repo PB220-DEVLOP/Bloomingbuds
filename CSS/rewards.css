@@ -4,7 +4,6 @@
     border-bottom: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 10px;
-    margin-left: 10px;
 }
 #main{
     font-size: 60px;
@@ -22,4 +21,54 @@
 }
 .container{
     display: flex;
+}
+.shop-btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.shop-btn:hover{
+    cursor: pointer;
+    background-color: #ff6666;
+    transition: 0.5s;
+}
+#comp{
+    text-align: center;
+    font-weight: bold;
+}
+.category-card{
+    display: flex;
+}
+.align{
+    height: 400px;
+    width: 345px;
+    border-radius: 5px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.cupon-card{
+    height: 80px;
+    border:#206020 2px dotted ;
+    width: 600px;
+    background-color: #d9f2d9;
+    margin-left: 100px;
+}
+.move{
+    margin-left: 120px;
+    font-weight: bold;
+}
+#inline{
+    display: flex;
+}
+span{
+    font-size: 20px;
+    color: #206020;
+    font-weight: bold
+}
+.move-2{
+    margin-left: 200px;
 }
