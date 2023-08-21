@@ -21,7 +21,7 @@
     font-weight: bold;
 }
 #fix{
-    color:  #206020;
+    color:  #00cc00;;
     font-weight: bold;
     font-size: 60px;
 }
@@ -30,7 +30,7 @@
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url('https://img.freepik.com/free-photo/close-up-picture-sapling-plant-is-growing_1150-28382.jpg?w=1060&t=st=1691737588~exp=1691738188~hmac=70747d472ea8bde25dc67d17325afa8a6fc2105c0b6abcc544dcc303207eed7f');
+    background-image: url('https://img.freepik.com/free-photo/close-up-hands-gardening_23-2149098333.jpg?size=626&ext=jpg&ga=GA1.2.150023710.1687535014&semt=sph');
     background-attachment: fixed;
 }
 .sec-left{

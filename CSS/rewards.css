@@ -3,6 +3,23 @@
     padding: 0%;
     border-bottom: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#main{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.shift{
+    margin-top: 80px;
+}
+.img-right{
+    height: 500px;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
 }
