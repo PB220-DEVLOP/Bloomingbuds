@@ -70,9 +70,10 @@
     display: flex;
     margin-left: 30px;
 }
-.card-img{
-    opacity: 0.7;
-}
+  
+#fix-img{
+    height: 280px;
+}  
 #inline{
     display: flex;
 }

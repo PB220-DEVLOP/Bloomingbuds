@@ -40,6 +40,7 @@
 #comp{
     text-align: center;
     font-weight: bold;
+    color: red;
 }
 .category-card{
     display: flex;
@@ -64,11 +65,16 @@
 #inline{
     display: flex;
 }
-span{
-    font-size: 20px;
-    color: #206020;
-    font-weight: bold
-}
 .move-2{
     margin-left: 200px;
+} 
+#fix-img{
+    height: 280px;
+}  
+.card-img{
+    opacity: 40px;
+}
+.image{
+    height: 400px;
+    margin-left: 100px;
 }
