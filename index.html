@@ -16,107 +16,115 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
-
-  <div class="container-fluid">
-
-    <!-- NAVEBAR -->
-    <div class="row border-bottom pt-3">
-      <div class="col-md-9">
-        <ul class="list-inline">
-          <li class="list-inline-item">offers</li>
-          <li class="list-inline-item">track order</li>
-          <li class="list-inline-item">rewards</li>
-          <li class="list-inline-item">orders</li>
-          <li class="list-inline-item">help and support</li>
-          <li class="list-inline-item">suggestion</li>
+  <!-- NAVEBAR -->
+  <!-- navbar01 -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <div class="container-fluid border-bottom ">
+      <div class=" navbar-collapse navbar-expand-sm">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">track order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">REWARD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ORDER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HELP AND SUPPORT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SUGGESTION</a>
+          </li>
+          </li>
         </ul>
       </div>
-      <div class="col-md-3 ">
-        <div class="d-flex justify-content-evenly  ">
-          <i class="bi bi-instagram"></i>
-          <i class="bi bi-twitter"></i>
-          <i class="bi bi-pinterest"></i>
-          <i class="bi bi-youtube"></i>
-        </div>
-      </div>
     </div>
-    <div class="row p-2  ">
-      <div class="col-md-2 ">
-        <img src="./images/indeximages/bloomingbuds.png" class="navbar-logo pb-2  ">
-      </div>
-      <div class="col-md-6">
-        <div class="input-group mb-3">
-          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">Categories</button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Addons</a></li>
-            <li><a class="dropdown-item" href="#">bulbs</a></li>
-            <li><a class="dropdown-item" href="#">combo packs</a></li>
-            <li><a class="dropdown-item" href="#">Gardening</a></li>
-            <li><a class="dropdown-item" href="#">Miniture Garden</a></li>
-            <li><a class="dropdown-item" href="#">Pebbles</a></li>
-            <li><a class="dropdown-item" href="#">Plants</a></li>
-            <li><a class="dropdown-item" href="#">Soil and Fertilizers</a></li>
-          </ul>
-          <input type="text" class="form-control" aria-label="Text input with dropdown button"
-            placeholder="what are you looking for?">
-          <button class="btn btn-outline-secondary " type="button" style="background-color:#ff6b6b;"><i
-              class="bi bi-search fs-4"></i></button>
+  </nav>
+    <!-- navbar02 -->
+    <nav class="navbar navbar-expand-lg bg-light  border-bottom sticky-top  ">
+      <div class="container-fluid m-2 ">
+        <a class="navbar-brand" href="#"><img src="./images/indeximages/bloomingbuds.png" alt="bloomingbuds logo"
+            height="50" style="border-radius: 10px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-chevron-double-down"></i>
+        </button>
+    
+        <div class="collapse navbar-collapse m-2 " id="navbarSupportedContent">
+          <form class="d-flex  " role="search">
+            <button class="btn btn-outline-danger  dropdown-toggle me-3 " type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Categories</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Addons</a></li>
+              <li><a class="dropdown-item" href="./pages/bulbs.html">bulbs</a></li>
+              <li><a class="dropdown-item" href="#">combo packs</a></li>
+              <li><a class="dropdown-item" href="./pages/gardening.html">Gardening</a></li>
+              <li><a class="dropdown-item" href="#">Miniture Garden</a></li>
+              <li><a class="dropdown-item" href="#">Pebbles</a></li>
+              <li><a class="dropdown-item" href="./pages/plants.html">Plants</a></li>
+              <li><a class="dropdown-item" href="#">Soil and Fertilizers</a></li>
+            </ul>
+            <input class="form-control ms-auto  " type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger " type="submit">Search</button>
+          </form>
+          <div class="nav-item d-flex ms-5  ">
+            <div class="nav-hover d-flex mt-2 ">
+              <i class="bi bi-chat-left fs-3 me-2 "> </i>
+              <h6>Expert support<br>Available 24/7</h6>
+            </div>
+            <div class="ms-5 nav-hover mt-2 ">
+              <i class="bi bi-person fs-4 p-2   fst-normal">login</i>
+            </div>
+            <div class="ms-5 nav-hover mt-2 ">
+              <i class="bi bi-cart2  fs-3  ms-2 fst-normal">CART</i>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-md-2 d-flex justify-content-center  chat  ">
-        <div>
-          <i class="bi bi-chat-left fs-3 ps-5 "> </i>
-        </div>
-        <div class="ms-2">
-          <h6>Expert support</h6>
-          <p>Available 24/7</p>
-        </div>
-      </div>
-      <div class="col-md-1 d-inline-block ">
-        <i class="bi bi-person fs-4 p-2   fst-normal">login</i>
-      </div>
-      <div class="col-md-1">
-        <i class="bi bi-cart2 display-6 ms-2 "></i>
-      </div>
-    </div>
-  
+    </nav>
 
+  <div class="container-fluid">
   <!-- FURTHER CONAINT OF PAGE -->
   <div class="row justify-content-center ">
     <div class="col-md-1 m-4 col-4 head">
-      <a href="./pages/gardening.html"><img src="./images/indeximages/gardening.jpg" class="rounded-pill head-img"></a>
+      <a href ="./pages/category_pages/gardening.html"><img src="./images/indeximages/gardening.jpg" class="rounded-pill head-img"></a>
       <p class="text-center m-3 fw-bolder">Gardening</p>
     </div>
     <div class="col-md-1 m-4 col-4 head">
-      <a href=""> <img src="./images/indeximages/plants.jpg" class="rounded-pill head-img"></a>
+      <a href="./pages/category_pages/plants.html"> <img src="./images/indeximages/plants.jpg" class="rounded-pill head-img"></a>
       <p class="text-center m-3 fw-bolder">Plants</p>
     </div>
     <div class="col-md-1 m-4 col-4 head">
-      <a href=""><img src="./images/indeximages/seeds.jpg" class="rounded-pill head-img"></a>
+      <a href="./pages/category_pages/seeds.html"><img src="./images/indeximages/seeds.jpg" class="rounded-pill head-img"></a>
       <p class="text-center m-3 fw-bolder">Seeds</p>
     </div>
     <div class="col-md-1 m-4 col-4 head">
-      <a href=""><img src="./images/indeximages/bulbs.jpg" class="rounded-pill head-img"></a>
+      <a href="./pages/category_pages/bulbs.html"><img src="./images/indeximages/bulbs.jpg" class="rounded-pill head-img"></a>
       <p class="text-center m-3 fw-bolder">Bulbs</p>
     </div>
     <div class="col-md-1 m-4 col-4 head">
-      <a href=""> <img src="./images/indeximages/pots.jpg" class="rounded-pill head-img"> </a>
+      <a href="./pages/category_pages/pots.html"> <img src="./images/indeximages/pots.jpg" class="rounded-pill head-img"> </a>
       <p class="text-center m-3 fw-bolder">Pots</p>
     </div>
     <div class="col-md-1 m-4 col-4 head">
-      <a href=""> <img src="./images/indeximages/fertilizers.jpg" class="rounded-pill head-img"> </a>
+      <a href="./pages/category_pages/fertilizers.html"> <img src="./images/indeximages/fertilizers.jpg" class="rounded-pill head-img"> </a>
       <p class="text-center m-3 fw-bolder">Fertilizers</p>
     </div>
     <div class="col-md-1 m-4 col-4 head">
-      <a href=""> <img src="./images/indeximages/pebbles.jpg" class="rounded-pill head-img"></a>
+      <a href="./pages/category_pages/pebbels.html"> <img src="./images/indeximages/pebbles.jpg" class="rounded-pill head-img"></a>
       <p class="text-center m-3 fw-bolder">Pebbles</p>
     </div>
     <div class="col-md-1 m-4 col-4 head">
-      <a href=""> <img src="./images/indeximages/Accessories.jpg" class="rounded-pill head-img"> </a>
+      <a href="./pages/category_pages/Accessories.html"> <img src="./images/indeximages/Accessories.jpg" class="rounded-pill head-img"> </a>
       <p class="text-center m-3 fw-bolder">Accesories</p>
     </div>
   </div>
@@ -178,7 +186,7 @@
     <h3 class="text-center my-5">Gardening And Plants</h3>
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <a href="">
+        <a href="/pages/category_pages/gardening.html">
           <img src="./images/indeximages/Gardening2.webp" style="height: 460px;" class="card-img">
 
           <button type="submit" class="card-img-overlay  btn btn-sm text-dark">view more</button>
@@ -364,7 +372,7 @@
   <div class="row">
     <div class="col-md-3 col-12 my-4">
       <div class="card">
-        <a href="">
+        <a href="./pages/category_pages/plants.html">
           <img src="./images/indeximages/plants2.webp" style="height: 460px;" class="card-img">
 
           <button type="submit" class="card-img-overlay  btn btn-sm text-dark">view more</button>

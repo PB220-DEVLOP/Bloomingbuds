@@ -60,6 +60,7 @@ transition: background-color 0.3s,color 0.3s;
 .popularimg3{
     height: 350px;
 }
+
 @media(max-width:500px){
     .newschannel{
       margin-left:  50px;

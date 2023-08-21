@@ -17,7 +17,7 @@ h1{
 .text-center1{
   text-align: center;
   font-size: 35px;
-  color: rgb(18, 17, 17);
+  color: red;
  
 }
 .head-img{
@@ -92,10 +92,15 @@ transition: 1s;
 
   .question {
     font-size: 23px;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(240, 234, 240);
   }
 
   .answer {
     font-size: 20px;
+    font-weight: bold;
+    color: #0b0a0a;
+    text-shadow: 2px 2px rgb(236, 230, 236);
     display: none;
     margin-top: 10px;
     opacity: 0;
