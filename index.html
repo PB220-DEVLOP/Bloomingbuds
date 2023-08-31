@@ -12,18 +12,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ubuntu:wght@700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./CSS/navbar.css">
+  <link rel="stylesheet" href="./CSS/navbar.css">k
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
   
 </head>
 
-<body>
+<body id="body" class="body-light">
   <!-- NAVEBAR -->
   <!-- navbar01 -->
   <nav class="navbar navbar-expand-lg bg-light navbar-light">
     <div class="container-fluid border-bottom ">
+     
+  
+  
       <div class=" navbar-collapse navbar-expand-sm">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -46,8 +49,11 @@
           </li>
           </li>
         </ul>
+        <button onclick="light()" class="btn mb-3 me-3 radius border-black"><i class="bi bi-moon-fill"></i></button>
+        <button onclick="dark()" class="btn mb-3 radius"><i class="bi bi-brightness-low-fill"></i> </button>
       </div>
     </div>
+   
   </nav>
     <!-- navbar02 -->
     <nav class="navbar navbar-expand-lg bg-light  border-bottom sticky-top  ">
@@ -156,7 +162,7 @@
   </div>
 
   <!-- Cards -->
-  <div class="row justify-content-center mt-5">
+  <div class="row justify-content-center mt-5 bg-light">
     <div class="col-md-2 col-3 m-4  text-center  ">
       <a href="" class="text-decoration-none text-dark"> <i class="bi bi-people" style="font-size: 3rem;"></i>
         <p>Help Center</p>
@@ -618,8 +624,8 @@
 
       <!-- footer -->
       <footer class=" pb-4">
-        <div class="container-fluid text-center text-md-left border-top">
-          <div class="row text-center text-md-left">
+        <div class="container-fluid text-center text-md-left border-top bg-light">
+          <div class="row text-center text-md-left bg-light">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
               <img src="./images/indeximages/Blooming Buds.png" class="" style="height: 250px;">
               <p class="text-dark text-lg-start" style="font-size: 15px;">Are you a plant enthusiast looking to turn
@@ -713,6 +719,20 @@
       <!-- end -->
     
   </div>
+  <script>
+  function light() {
+    const light = document.getElementById('body')
+    light.classList.remove('body-light');
+    light.classList.add('body-dark');
+}
+function dark() {
+    const light = document.getElementById('body')
+    light.classList.remove('body-dark');
+    light.classList.add('body-light');
+}
+
+</script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

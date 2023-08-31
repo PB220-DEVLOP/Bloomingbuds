@@ -60,6 +60,25 @@ transition: background-color 0.3s,color 0.3s;
 .popularimg3{
     height: 350px;
 }
+.radius{
+    border-radius: 50%;
+
+}
+.radius:hover{
+    border-color: black;
+}
+.body-dark{
+    background-color: #00050d;
+    color: white;
+}
+
+.body-light{
+    background-color: white;
+    color: black;
+}
+.body-dark .textcolor{
+   color: white;
+}
 
 @media(max-width:500px){
     .newschannel{
